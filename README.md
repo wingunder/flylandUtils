@@ -16,7 +16,9 @@ Prerequisites
 
 On Debian (and derivatives like Ubuntu) systems, you'll need to:
 
-- apt install make gpsbabel unzip
+```
+apt install make gpsbabel unzip
+```
 
 Convering PIO information into the .gpx format
 ----------------------------------------------
