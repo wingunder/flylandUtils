@@ -1,0 +1,13 @@
+# Copyright: Pieter du Preez <pdupreez at gmail point com>
+# Date: 05.03.2017
+
+DESCRIPTION Flyland asc (gpsbabel) style for PIOs.
+EXTENSION   asc
+
+FIELD_DELIMITER  COMMASPACE
+RECORD_DELIMITER NEWLINE
+FIELD_ENCLOSER    DOUBLEQUOTE
+
+IFIELD  LAT_DECIMAL, "", "%f" # Latitude
+IFIELD  LON_DECIMAL, "", "%f" # Longitude
+IFIELD  SHORTNAME, "", "%s" # Name
